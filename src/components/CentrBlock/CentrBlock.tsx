@@ -1,6 +1,7 @@
 import ContentPlaylist from "@components/ContentPlaylist/ContentPlaylist";
 import classNames from "classnames";
 import styles from "@components/CentrBlock/CentrBlock.module.css";
+import FilterBlock from "@components/FilterBlock/FilterBlock";
 
 export default function CentrBlock() {
   return (
@@ -17,40 +18,7 @@ export default function CentrBlock() {
         />
       </div>
       <h2 className={styles.centerBlockH2}>Треки</h2>
-      <div className={classNames(styles.centerBlockFilter, styles.filter)}>
-        <div className={styles.filterTitle}>Искать по:</div>
-        <div
-          className={classNames(
-            styles.filterButton,
-
-            styles.buttonAuthor,
-
-            styles.btnText
-          )}
-        >
-          исполнителю
-        </div>
-        <div
-          className={classNames(
-            styles.filterButton,
-            styles.buttonYear,
-            styles.btnText
-          )}
-        >
-          году выпуска
-        </div>
-        <div
-          className={classNames(
-            styles.filterButton,
-
-            styles.buttonGenre,
-
-            styles.btnText
-          )}
-        >
-          жанру
-        </div>
-      </div>
+      <FilterBlock />
       <div
         className={classNames(
           styles.centerBlockContent,

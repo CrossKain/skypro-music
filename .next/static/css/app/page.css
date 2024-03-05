@@ -17,6 +17,41 @@
   background-color: #181818;
 }
 
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/BarVolumeBlock/BarVolumeBlock.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.BarVolumeBlock_barVolumeBlock__CqDxI {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 92px 0 0;
+  }
+  .BarVolumeBlock_volumeContent__QrCNh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .BarVolumeBlock_volumeImage__9Vpxk {
+    width: 13px;
+    height: 18px;
+    margin-right: 17px;
+  }
+  
+  .BarVolumeBlock_volumeSvg__ZBa9Z {
+    width: 13px;
+    height: 18px;
+    fill: transparent;
+  }
+  
+  .BarVolumeBlock_volumeProgress__sWrKX {
+    width: 109px;
+  }
+  
+  .BarVolumeBlock_volumeProgressLine__Mf45p {
+    width: 109px;
+  }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Bar/Bar.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -53,13 +88,7 @@
     justify-content: flex-start;
   }
   
-  .Bar_barVolumeBlock__uIB9_ {
-    width: auto;
-    display: flex;
-    align-items: center;
-    padding: 0 92px 0 0;
-  }
-
+ 
   .Bar_playerControls___UViR {
     display: flex;
     flex-direction: row;
@@ -373,6 +402,155 @@
         stroke: #ffffff;
         fill: transparent;
       }
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/PlayListItem/PlayListItem.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.PlayListItem_playlist__S_uRd {
+    height: 700px;
+    overflow-y: auto;
+    overflow-y: hidden;
+}
+.PlayListItem_playlist__S_uRd::-webkit-scrollbar {
+   display: none;
+}
+
+.PlayListItem_contentPlaylist__P1gbL {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .PlayListItem_playlistTitleCol__rLxwX {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #696969;
+    text-transform: uppercase;
+  }
+  
+  .PlayListItem_playlistTitleSvg__UE_7h {
+    width: 12px;
+    height: 12px;
+    fill: transparent;
+    stroke: #696969;
+  }
+  
+  .PlayListItem_col01__P8rmk {
+    width: 447px;
+  }
+  
+  .PlayListItem_col02__l_tDS {
+    width: 321px;
+  }
+  
+  .PlayListItem_col03__P_I0E {
+    width: 245px;
+  }
+  
+  .PlayListItem_col04__8yGdl {
+    width: 60px;
+    text-align: end;
+  }
+  
+  .PlayListItem_playlistItem__lm27K {
+    width: 100%;
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .PlayListItem_playlistTrack__J4N1U {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .PlayListItem_trackTitle__Wq9Gj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 447px;
+  }
+  
+  .PlayListItem_trackTitleImage__nolK8 {
+    width: 51px;
+    height: 51px;
+    padding: 16px;
+    background: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+  }
+  
+  .PlayListItem_trackTitleSvg__yn2pf {
+    width: 18px;
+    height: 17px;
+    fill: transparent;
+    stroke: #4e4e4e;
+  }
+  
+  .PlayListItem_trackTitleLink__VTWy5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  
+  .PlayListItem_trackTitleSpan___b4bt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4e4e4e;
+  }
+  
+  .PlayListItem_trackAuthor__V0t_Z {
+    width: 321px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .PlayListItem_trackAuthorLink__fABSd {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .PlayListItem_trackAlbum__AuWYa {
+    width: 245px;
+  }
+  
+  .PlayListItem_trackAlbumLink__IQHYN {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+  }
+  
+  .PlayListItem_trackTimeSvg__fww1c {
+    width: 14px;
+    height: 12px;
+    margin-right: 17px;
+    fill: transparent;
+    stroke: #696969;
+  }
+  
+  .PlayListItem_trackTimeText__gkIP4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #696969;
+  }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/ContentPlaylist/ContentPlaylist.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -521,6 +699,42 @@
     line-height: 24px;
     text-align: right;
     color: #696969;
+  }
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/FilterBlock/FilterBlock.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.FilterBlock_centerBlockFilter__UsY_5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 51px;
+  }
+  
+  .FilterBlock_centerBlockContent___cSEI {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FilterBlock_filterTitle__6gsei {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 15px;
+  }
+  
+  .FilterBlock_filterButton__Ze5zX {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
+    padding: 6px 20px;
+  }
+  
+  .FilterBlock_filterButton__Ze5zX:not(:last-child) {
+    margin-right: 10px;
   }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Main/Main.module.css ***!

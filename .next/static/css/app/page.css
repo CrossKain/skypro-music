@@ -1,22 +1,3 @@
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
-
-.page_wrapper__xDBJh {
-  width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-  background-color: #383838;
-}
-
-.page_container__aoG4z {
-  max-width: 1920px;
-  height: 100vh;
-  margin: 0 auto;
-  position: relative;
-  background-color: #181818;
-}
-
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/BarVolumeBlock/BarVolumeBlock.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -403,6 +384,25 @@
         stroke: #ffffff;
         fill: transparent;
       }
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+.page_wrapper__xDBJh {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #383838;
+}
+
+.page_container__aoG4z {
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background-color: #181818;
+}
+
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/PlayListItem/PlayListItem.module.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -701,6 +701,32 @@
     text-align: right;
     color: #696969;
   }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/FilterList/FilterList.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.FilterList_filterWrapper__cM50i {
+    width: 248px;
+    height: 305px;
+    position: absolute;
+    padding: 34px;
+    border-radius: 12px;
+
+background: rgb(49, 49, 49);
+top: 50px;
+}
+
+.FilterList_filterList__1UL_7 {
+   
+    position: static;
+width: 180px;
+height: 237px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/FilterBlock/FilterBlock.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -736,6 +762,10 @@
   
   .FilterBlock_filterButton__Ze5zX:not(:last-child) {
     margin-right: 10px;
+  }
+
+  .FilterBlock_filterButtonWrapper__t3oMJ{
+    position: relative;
   }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Main/Main.module.css ***!
@@ -811,6 +841,42 @@
     width: 100%;
     height: auto;
   }
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/NavMenu/NavMenu.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.NavMenu_navMenu__lg1Wy {
+    display: block;
+    visibility: visible;
+  }
+  
+  .NavMenu_logoImage__nG0XN {
+    width: 113.33px;
+    height: 17px;
+    color: #181818;
+  }
+  
+  .NavMenu_burgerLine__3shZ7 {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #d3d3d3;
+  }
+
+  .NavMenu_menuList____ugF {
+    padding: 18px 0 10px 0;
+  }
+  
+  .NavMenu_menuItem__qtBKR {
+    padding: 5px 0;
+    margin-bottom: 16px;
+  }
+  
+  .NavMenu_menuLink__kmToA {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Nav/Nav.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -835,6 +901,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
   }
   
   .Nav_navMenu__RyDxx {

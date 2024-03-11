@@ -43,3 +43,7 @@
   .filterButton:not(:last-child) {
     margin-right: 10px;
   }
+
+  .filterButtonWrapper{
+    position: relative;
+  }

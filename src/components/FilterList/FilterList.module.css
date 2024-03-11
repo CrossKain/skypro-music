@@ -1,0 +1,23 @@
+.filterWrapper {
+    width: 248px;
+    height: 305px;
+    position: absolute;
+    padding: 34px;
+    border-radius: 12px;
+
+background: rgb(49, 49, 49);
+top: 50px;
+}
+
+.filterList {
+   
+    position: static;
+width: 180px;
+height: 237px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}

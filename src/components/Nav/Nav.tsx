@@ -1,9 +1,12 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "@components/Nav/Nav.module.css";
 import classNames from "classnames";
+import { useState } from "react";
+import { NavMenu } from "@components/NavMenu/NavMenu";
 
 export default function Nav() {
+  const [isOpen, isSetOpen] = useState<boolean>(false);
   return (
     <nav className={classNames(styles.mainNav, styles.nav)}>
       <div className={classNames(styles.navLogo, styles.logo)}>
@@ -15,24 +18,15 @@ export default function Nav() {
           src="/image/logo.png"
         />
       </div>
-      <div className={classNames(styles.navBurger, styles.burger)}>
+      <div
+        onClick={() => isSetOpen(!isOpen)}
+        className={classNames(styles.navBurger, styles.burger)}
+      >
         <span className={styles.burgerLine}></span>
         <span className={styles.burgerLine}></span>
         <span className={styles.burgerLine}></span>
       </div>
-      <div className={classNames(styles.navMenu, styles.menu)}>
-        <ul className={styles.menuList}>
-          <li className={styles.menuItem}>
-            <Link href="/" className={styles.menuLink}>
-              Главное
-            </Link>
-          </li>
-          <li className={styles.menuItem}>Мой плейлист</li>
-          <li className={styles.menuItem}>
-            <Link href="/signin">Войти</Link>
-          </li>
-        </ul>
-      </div>
+      <NavMenu isOpen={isOpen} />
     </nav>
   );
 }

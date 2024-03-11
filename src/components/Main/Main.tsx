@@ -4,6 +4,7 @@ import MainSlideBar from "@components/MainSlideBar/MainSlideBar";
 import Nav from "@components/Nav/Nav";
 import styles from "@components/Main/Main.module.css";
 
+
 export default function Main() {
   return (
     <>
@@ -17,3 +18,5 @@ export default function Main() {
     </>
   );
 }
+
+

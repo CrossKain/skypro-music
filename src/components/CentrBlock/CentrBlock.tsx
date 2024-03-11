@@ -3,7 +3,7 @@ import classNames from "classnames";
 import styles from "@components/CentrBlock/CentrBlock.module.css";
 import FilterBlock from "@components/FilterBlock/FilterBlock";
 
-export default function CentrBlock() {
+export default async function CentrBlock({ data }) {
   return (
     <div className={classNames(styles.mainCenterBlock, styles.centerBlock)}>
       <div className={classNames(styles.centerBlockSearch, styles.search)}>
@@ -41,8 +41,22 @@ export default function CentrBlock() {
             </svg>
           </div>
         </div>
-        <ContentPlaylist />
+        <ContentPlaylist tracks={data} />
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  const res = await fetch(
+    "https://skypro-music-api.skyeng.tech/catalog/track/all/"
+  );
+
+  if (!res.ok) {
+    throw new Error("Ошибка при получении данных");
+  }
+  const data = res.json();
+  return {
+    props: data,
+  };
 }

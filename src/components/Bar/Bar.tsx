@@ -1,6 +1,6 @@
 "use client";
 
-import classNames from "classnames";
+import classNames from "classnames"; 
 import styles from "./Bar.module.css";
 import BarVolumeBlock from "@components/BarVolumeBlock/BarVolumeBlock";
 

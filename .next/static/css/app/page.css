@@ -713,7 +713,20 @@
 
 background: rgb(49, 49, 49);
 top: 50px;
+overflow: scroll;
+overflow-x: hidden;
+
 }
+
+.FilterList_filterWrapper__cM50i::-webkit-scrollbar {
+    
+width: 4px;
+border-radius: 10px;
+
+
+background: rgb(75, 73, 73);
+fill: rgb(255, 255, 255);
+  }
 
 .FilterList_filterList__1UL_7 {
    
@@ -726,6 +739,37 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
+
+}
+
+.FilterList_li__dqM_6{
+    position: static;
+width: 152px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+
+}
+
+.FilterList_li__dqM_6:hover{
+    color: rgb(182, 114, 255);
+font-family: StratosSkyeng;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+-webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+cursor: pointer;
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/FilterBlock/FilterBlock.module.css ***!
@@ -735,6 +779,7 @@ padding: 0px;
     flex-direction: row;
     align-items: center;
     margin-bottom: 51px;
+    cursor: pointer;
   }
   
   .FilterBlock_centerBlockContent___cSEI {
@@ -766,6 +811,10 @@ padding: 0px;
 
   .FilterBlock_filterButtonWrapper__t3oMJ{
     position: relative;
+  }
+
+  .FilterBlock_active__7lqd2 {
+    border: 1px solid red;
   }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Main/Main.module.css ***!

@@ -10,6 +10,7 @@
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 51px;
+    cursor: pointer;
   }
   
   .centerBlockContent {
@@ -46,4 +47,8 @@
 
   .filterButtonWrapper{
     position: relative;
+  }
+
+  .active {
+    border: 1px solid red;
   }

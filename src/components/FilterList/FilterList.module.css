@@ -14,7 +14,7 @@ overflow-x: hidden;
 
 .filterWrapper::-webkit-scrollbar {
     
-width: 4px;
+width: 3px;
 border-radius: 10px;
 
 

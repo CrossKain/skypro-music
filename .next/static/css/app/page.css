@@ -780,6 +780,7 @@ cursor: pointer;
     align-items: center;
     margin-bottom: 51px;
     cursor: pointer;
+    gap: 10px;
   }
   
   .FilterBlock_centerBlockContent___cSEI {

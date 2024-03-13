@@ -10,18 +10,41 @@ top: 50px;
 overflow: scroll;
 overflow-x: hidden;
 
+  overflow-y: scroll;
+ 
 }
 
 .filterWrapper::-webkit-scrollbar {
     
-width: 3px;
-border-radius: 10px;
+    width: 4px;
+    height: 100%;
+   
 
 
 background: rgb(75, 73, 73);
 fill: rgb(255, 255, 255);
   }
+ 
+  .filterWrapper::-webkit-scrollbar {
+    width: 4px;
+    height: 100%;
+    background: rgb(75, 73, 73);
+  }
+  
+  .filterWrapper::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+  }
+  
+  .filterWrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 123, 255); /* Blue color for the scrollbar thumb */
+  }
+  
+  .highlight::-webkit-scrollbar-thumb {
+    background: rgb(0, 123, 255); /* Blue color for the scrollbar thumb */
+  }
 
+  
 .filterList {
    
     position: static;
